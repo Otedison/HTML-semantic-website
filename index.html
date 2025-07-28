@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A sample HTML5 page demonstrating semantic structure, accessibility, and SEO best practices">
+    <meta name="keywords" content="HTML5, semantic, accessibility, SEO, web development">
+    <meta name="author" content="Your Name">
+    
+  
+    <meta property="og:title" content="HTML5 Semantic Web Page">
+    <meta property="og:description" content="Demonstration of semantic HTML5 with accessibility and SEO">
+    <meta property="og:type" content="website">
+    
+    <title>HTML5 Semantic Web Page | Accessibility & SEO</title>
+    
+ 
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    
+    <header role="banner">
+        <h1>HTML5 Semantic Web Page</h1>
+        <p>Demonstrating accessibility and SEO best practices</p>
+    </header>
+    
+    <nav aria-label="Main navigation">
+        <h2 class="visually-hidden">Main Navigation</h2>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <main id="main-content" role="main">
+        <article>
+            <header>
+                <h2 id="about">About Semantic HTML</h2>
+                <p>Published on <time datetime="2025-07-28">July 28, 2025</time></p>
+            </header>
+            
+            <section>
+                <h3>Why Semantic HTML Matters</h3>
+                <p>Semantic HTML provides meaning to web content, making it more accessible to both users and search engines.</p>
+                
+                <figure>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT_IbKsyA3WqEKNfTm8cEMeosPiM1V-AfSUg&s" alt="Diagram showing HTML5 semantic elements" width="600" height="400">
+                    <figcaption>HTML5 semantic elements structure</figcaption>
+                </figure>
+            </section>
+            
+            <section>
+                <h3>Key Benefits</h3>
+                <ul>
+                    <li>Improved accessibility for screen readers</li>
+                    <li>Better SEO through clear content structure</li>
+                    <li>Easier maintenance with meaningful tags</li>
+                </ul>
+            </section>
+        </article>
+        
+        <article id="services">
+            <h2>Our Services</h2>
+            <section>
+                <h3>Web Accessibility Consulting</h3>
+                <p>We help make your website usable by everyone, regardless of ability.</p>
+            </section>
+            
+            <section>
+                <h3>SEO Optimization</h3>
+                <p>Improve your search engine rankings with semantic markup.</p>
+            </section>
+        </article>
+    </main>
+   
+    <section id="contact" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Contact Us</h2>
+        <form>
+            <fieldset>
+                <legend>Send us a message</legend>
+                
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </fieldset>
+        </form>
+    </section>
+    
+    <footer role="contentinfo">
+        <h2 class="visually-hidden">Footer Information</h2>
+        <p>&copy; 2025 Semantic HTML Demo. All rights reserved.</p>
+        <address>
+            Contact: <a href="mailto:oti.edison@edison.com">oti.edison@edison.com</a>
+        </address>
+    </footer>
+</body>
+</html>
